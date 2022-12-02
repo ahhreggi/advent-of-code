@@ -9,8 +9,8 @@ const solution = (input) => {
 };
 
 console.log("[ Part One ]");
-console.log("Sample answer:", solution(sampleInput));
-console.log("Puzzle answer:", solution(puzzleInput));
+console.log("Sample answer:", solution(sampleInput)); // 7
+console.log("Puzzle answer:", solution(puzzleInput)); // 1292
 
 const getWindowSum = (list, i) => {
   let leftIdx = i < 2 ? 0 : i - 2;
@@ -26,5 +26,5 @@ const solution2 = (input) => {
 };
 
 console.log("\n[ Part Two ]");
-console.log("Sample answer:", solution2(sampleInput));
-console.log("Puzzle answer:", solution2(puzzleInput));
+console.log("Sample answer:", solution2(sampleInput)); // 5
+console.log("Puzzle answer:", solution2(puzzleInput)); // 1262

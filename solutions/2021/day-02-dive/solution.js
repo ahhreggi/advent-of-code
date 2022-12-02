@@ -19,8 +19,8 @@ const solution = (input) => {
 };
 
 console.log("[ Part One ]");
-console.log("Sample answer:", solution(sampleInput));
-console.log("Puzzle answer:", solution(puzzleInput));
+console.log("Sample answer:", solution(sampleInput)); // 150
+console.log("Puzzle answer:", solution(puzzleInput)); // 1868935
 
 const solution2 = (input) => {
   let depth = 0;
@@ -42,5 +42,5 @@ const solution2 = (input) => {
 };
 
 console.log("\n[ Part Two ]");
-console.log("Sample answer:", solution2(sampleInput));
-console.log("Puzzle answer:", solution2(puzzleInput));
+console.log("Sample answer:", solution2(sampleInput)); // 900
+console.log("Puzzle answer:", solution2(puzzleInput)); // 1965970888
