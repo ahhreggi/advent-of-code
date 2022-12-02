@@ -1,0 +1,22 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "1.0.0",
+  "author": "Maria Regina Sirilan",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahhreggi/advent-code-2022.git"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "prettier": "prettier --write ."
+  },
+  "homepage": "https://github.com/ahhreggi/advent-code-2022#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "2.8.0"
+  },
+  "main": "index.js"
+}
