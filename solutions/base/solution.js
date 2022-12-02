@@ -1,5 +1,5 @@
-import sampleInput from "./sampleInput";
-import puzzleInput from "./puzzleInput";
+import sampleInput from "./sampleInput.js";
+import puzzleInput from "./puzzleInput.js";
 
 const solution = () => {
   return true;
