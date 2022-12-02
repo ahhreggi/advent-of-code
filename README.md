@@ -1,3 +1,5 @@
-# Advent of Code 2022
+# 🎄 Advent of Code 🎄
 
-Total: 2/2⭐
+This repo contains my solutions for [Advent of Code](https://adventofcode.com/) -- done in JavaScript.
+
+- 2022 (4⭐)
