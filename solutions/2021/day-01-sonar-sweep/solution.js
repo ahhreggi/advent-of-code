@@ -2,10 +2,10 @@ import sampleInput from "./sampleInput.js";
 import puzzleInput from "./puzzleInput.js";
 
 const solution = (input) => {
-  const depths = input.split('\n').map(n => +n)
+  const depths = input.split("\n").map((n) => +n);
   let count = 0;
-  depths.forEach((depth, i) => (i > 0 && depths[i - 1] < depth && count++))
-  return count
+  depths.forEach((depth, i) => i > 0 && depths[i - 1] < depth && count++);
+  return count;
 };
 
 console.log("[ Part One ]");
@@ -14,17 +14,17 @@ console.log("Puzzle answer:", solution(puzzleInput));
 
 const getWindowSum = (list, i) => {
   let leftIdx = i < 2 ? 0 : i - 2;
-  return list.slice(leftIdx, i + 1).reduce((a, b) => a + b, 0)
-}
+  return list.slice(leftIdx, i + 1).reduce((a, b) => a + b, 0);
+};
 
 const solution2 = (input) => {
-  const depths = input.split('\n').map(n => +n);
-  const windowSums = depths.map((n, i) => getWindowSum(depths, i)).slice(2)
+  const depths = input.split("\n").map((n) => +n);
+  const windowSums = depths.map((n, i) => getWindowSum(depths, i)).slice(2);
   let count = 0;
-  windowSums.forEach((sum, i) => (i > 0 && windowSums[i - 1] < sum && count++));
+  windowSums.forEach((sum, i) => i > 0 && windowSums[i - 1] < sum && count++);
   return count;
 };
 
 console.log("\n[ Part Two ]");
-  console.log("Sample answer:", solution2(sampleInput));
-  console.log("Puzzle answer:", solution2(puzzleInput));
+console.log("Sample answer:", solution2(sampleInput));
+console.log("Puzzle answer:", solution2(puzzleInput));
