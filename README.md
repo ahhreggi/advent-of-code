@@ -6,6 +6,6 @@ Started in 2022 so I'm doing some of the previous years here and there. :^)
 
 |           📅           | ⭐  |
 | :--------------------: | :-: |
-| [2022](solutions/2022) |  4  |
+| [2022](solutions/2022) |  6  |
 | [2021](solutions/2021) |  4  |
 | [2020](solutions/2020) | 14  |
