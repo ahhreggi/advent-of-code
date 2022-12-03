@@ -17,8 +17,8 @@ const solution = (input) => {
 };
 
 console.log("[ Part One ]");
-console.log("Sample answer:", solution(sampleInput));
-console.log("Puzzle answer:", solution(puzzleInput));
+console.log("Sample answer:", solution(sampleInput)); // 2
+console.log("Puzzle answer:", solution(puzzleInput)); // 500
 
 const solution2 = (input) => {
   const passwords = input.split("\n").map((s) => s.split(": "));
@@ -34,5 +34,5 @@ const solution2 = (input) => {
 };
 
 console.log("\n[ Part Two ]");
-console.log("Sample answer:", solution2(sampleInput));
-console.log("Puzzle answer:", solution2(puzzleInput));
+console.log("Sample answer:", solution2(sampleInput)); // 1
+console.log("Puzzle answer:", solution2(puzzleInput)); // 313
